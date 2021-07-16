@@ -1,16 +1,17 @@
 .beer-list-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #null-results {
   color: red;
+  background-color: white;
   position: absolute;
-  width: 500px;
+  width: 600px;
   left: 0; 
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
 }

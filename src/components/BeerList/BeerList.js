@@ -9,7 +9,7 @@ class BeerList extends React.Component {
 
     //if we have no beer results, display a meaningful message to the user
     if(beers.length === 0){
-      nullResultsJSX = <div id="null-results">Sorry, No results found with the specified criteria.</div>
+      nullResultsJSX = <div id="null-results">Sorry, no results found with the specified criteria.</div>
     }
 
     return (
