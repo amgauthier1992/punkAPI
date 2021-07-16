@@ -7,7 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To get setup locally, do the following:
 
 1. Clone this repository to your machine- `git clone https://github.com/amgauthier1992/punkAPI.git <insert_your_repository_name_here>`
-2. `cd` into your project directory, and install the necessary dependencies- `npm install`
+2. `cd` into the cloned repository, and make a fresh start of the git history for this project with `rm -rf .git && git init`
+3. Install the necessary dependencies- `npm install`
 3. Prompt 1 (Fizzbuzz): To access the code for the first assessment prompt, navigate to the question1.js file in your project's root directory.
     - **Please note**: There are multiple functions provided using the same name that solve the same solution, to verify each function is working separately, you must comment/uncomment the other functions where appropriate.
     - To verify the solution(s), enter `node question1.js <insert_argument_here>` in the command prompt to execute the code within the file.
