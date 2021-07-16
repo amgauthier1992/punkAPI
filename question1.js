@@ -14,8 +14,8 @@ function isDivisibleBy(n){
     } else {
       console.log(i);
     }
-  }
-}
+  };
+};
 
 isDivisibleBy(LIMIT);
 */
@@ -25,6 +25,7 @@ isDivisibleBy(LIMIT);
   code hypothetically was to be revisited and the divisors needed to be changed or new divisors needed to be added.
 */
 
+/*
 function isDivisibleBy(n){
   for(let i = 1; i <= n; i++){
     let output = "";
@@ -38,10 +39,19 @@ function isDivisibleBy(n){
       output = i;
     }
     console.log(output);
-  }
-}
+  };
+};
 
 isDivisibleBy(LIMIT);
+*/
 
 //Bonus: Fizzbuzz without equality operators
 
+function isDivisibleBy(n){
+  for(let i = 0; i < n;)
+    console.log(
+      ( ++i%2 ? '' : 'Net' ) + ( i%3 ? '' : 'capital' ) || i
+    )
+};
+
+isDivisibleBy(LIMIT);
