@@ -7,7 +7,7 @@ To get setup locally, do the following:
 
 3. Install the necessary dependencies- `npm install`
 
-## Question 1 - Fizzbuzz
+## Question 1 - Fizzbuzz (Netcapital)
 To access the code for the first question, navigate to the question1.js file in your project's root directory.
 
 **Please note**: There are multiple functions provided using the same name that solve the same problem. To verify each function is working separately, you must comment/uncomment the other functions where appropriate. Make sure you are within the root directory when you execute the command below.
