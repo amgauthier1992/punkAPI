@@ -12,6 +12,7 @@ To get setup locally, do the following:
     - **Please note**: There are multiple functions provided using the same name that solve the same solution, to verify each function is working separately, you must comment/uncomment the other functions where appropriate.
     - To verify the solution(s), enter `node question1.js <insert_argument_here>` in the command prompt to execute the code within the file.
 4. Prompt 2 (Punk API): To open the app in development mode, run `npm start` (see more below)
+    - All of the core code is in the `src` directory.
     - To run the component tests, use `npm test` (see more below)
 
 ## Available Scripts
