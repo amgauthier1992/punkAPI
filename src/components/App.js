@@ -42,17 +42,15 @@ class App extends React.Component {
     switch (sortType){
       case "byName": 
         sortedBeers = beers.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
-        this.setState({ beers: sortedBeers })
         break;
       case "byAbv":
         sortedBeers = beers.sort((a,b) => a.abv - b.abv);
-        this.setState({ beers: sortedBeers })
         break;
       case "byIbu":
         sortedBeers = beers.sort((a,b) => a.ibu - b.ibu);
-        this.setState({ beers: sortedBeers })
         break;
     };
+    this.setState({ beers: sortedBeers })
   };
 
   render(){

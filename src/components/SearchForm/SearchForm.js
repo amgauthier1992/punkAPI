@@ -124,6 +124,7 @@ class SearchForm extends React.Component {
           value={beerIbu} 
           step="0.1"
           min="0"
+          max="3000"
           onChange={(e) => this.handleIbuChange(e.target.value)} 
           placeholder="xxx.x" 
         />
